@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MESSAGE } from './shared/constants/messages';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,6 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'my-app';
+  message=MESSAGE.MES_ONE
+
 }
